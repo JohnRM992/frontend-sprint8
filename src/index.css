@@ -219,6 +219,12 @@ color: #ffffff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+.imgProd{
+  width: 60px;
+  height: 60px;
+}
+
 .filasProd{
   padding:7px;
   color:black;
