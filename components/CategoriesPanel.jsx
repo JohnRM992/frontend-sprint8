@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import {FaList} from 'react-icons/fa';
 const CategoriesPanel = () => {
     const [categoryDetails, setCategoryDetails] = useState({});
     const [totalCategories, setTotalCategories] = useState(0);
@@ -33,8 +33,8 @@ const CategoriesPanel = () => {
     return (
         <div>
             <div className='categorias'>
-            <h3 className='seccionCategoria'>Categorías</h3>
-            <h4>Total de categorías: {totalCategories}</h4>
+            <h3 className='seccionCategoria'><FaList /> CATEGORIAS</h3>
+            <h3>Total de categorías: {totalCategories}</h3>
             </div>
             <div className='categoriesPanel-details'>
                 

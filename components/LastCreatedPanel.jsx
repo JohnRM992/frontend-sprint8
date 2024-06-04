@@ -25,13 +25,12 @@ const LastCreatedPanel = ({ lastUser }) => {
 
     return (
         <div className="ultimoUsuario">
-            <h3 className='ultimoUsuario-text'>Último usuario creado</h3>
+            <h3 className='ultimoUsuario-text'>ULTIMO USUARIO CREADO</h3>
             <div className='detalles-UltimoUsario'>
-                
-                <p>ID: {userDetails.id}</p>
-                <p>Nombre: {userDetails.first_name} </p>
-                <p>Apellido: {userDetails.last_name}</p>
-                <p>Email: {userDetails.email}</p>
+                <p><strong>ID :</strong> {userDetails.id}</p>
+                <p><strong>Nombre:</strong> {userDetails.first_name} </p>
+                <p><strong>Apellido:</strong> {userDetails.last_name}</p>
+                <p><strong>Email:</strong> {userDetails.email}</p>
                 <img className="ultimoUsuario-Imagen" src={`http://localhost:3300/images/users/${userDetails.img}`} alt="Imagen de perfil del último usuario" />
             </div>
         </div>

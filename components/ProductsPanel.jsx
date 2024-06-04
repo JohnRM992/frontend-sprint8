@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import { FaShoppingCart } from 'react-icons/fa';
 const ProductsPanel = () => {
     const [products, setProducts] = useState([]);
     const [totalProducts, setTotalProducts] = useState(0);
@@ -21,8 +21,8 @@ const ProductsPanel = () => {
     return (
         <div className="productsPanel">
             <div className="productos">
-                <h3 className='seccionUsuario'>Productos</h3>
-                <h4>Total de productos: {totalProducts}</h4>
+                <h3 className='seccionUsuario'> <FaShoppingCart /> PRODUCTOS</h3>
+                <h3>Total de productos: {totalProducts}</h3>
             </div>
             <table className="productsTable">
                 <thead>
