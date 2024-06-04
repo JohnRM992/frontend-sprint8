@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { FaUserCircle} from 'react-icons/fa';
 
 const UsersPanel = () => {
     const [users, setUsers] = useState([]);
@@ -20,8 +21,8 @@ const UsersPanel = () => {
     return (
         <div className="usersPanel">
             <div className="usuarios">
-            <h3 className='seccionUsuario'>Usuarios</h3>
-            <h4>Total de usuarios: {totalUsers}</h4>
+            <h3 className='seccionUsuario'><FaUserCircle /> USUARIOS </h3>
+            <h3>Total de usuarios: {totalUsers}</h3>
             </div>
             <table className="usersTable">
                 <thead >

@@ -1,8 +1,6 @@
-# React + Vite
+# Dashboard React - Invictus Hard Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sprint 8 - React
 
-Currently, two official plugins are available:
+Tablero de control de Invictus Hard Store realizado con React. donde se consume la API del E-commerce invictusHardStore , para mostrar un detalle de productos y sus respectivas categorías, ademas de los usuarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

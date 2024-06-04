@@ -30,8 +30,9 @@ body{
 }
 .dashboardTexto{
   text-align: center;
-  margin-bottom: 20px;
-  border-bottom: 2px solid black;
+  margin: 20px 0;
+  padding-bottom: 10PX;
+  border-bottom: 4px solid #5d820e ;
 }
 
 .seccionUsuario{
@@ -95,7 +96,7 @@ body{
 }
 .detalles-UltimoUsario{  
   padding-left: 10px;
-  font-size: 18px; 
+  font-size: 26px; 
 }
 .ultimoUsuario-Imagen{
   margin-top:15px;
@@ -152,7 +153,6 @@ nav{
   background-size: 500px;
   border-radius: 3px;
   padding: 20px;
-  margin-top: 10px;
 }
 
 nav ul li{
@@ -219,6 +219,12 @@ color: #ffffff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+.imgProd{
+  width: 60px;
+  height: 60px;
+}
+
 .filasProd{
   padding:7px;
   color:black;

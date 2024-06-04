@@ -32,21 +32,17 @@ const Dashboard = () => {
 
     return (
         <div>
-            
-            <h1 className='dashboardTexto'>Dashboard</h1>
-            <div className='dashBoard-top'>
+            <h1 className="dashboardTexto">DASHBOARD</h1>
+            <div className="dashBoard-top">
                 <div>
-                <UsersPanel totalUsers={totalUsers} />
-            <LastCreatedPanel lastUser={lastUser}  />
-            <CategoriesPanel categories={categories} />
+                    <UsersPanel totalUsers={totalUsers} />
+                    <LastCreatedPanel lastUser={lastUser} />
+                    <CategoriesPanel categories={categories} />
                 </div>
-            <div className='productTable'>
-            <ProductsPanel totalProducts={totalProducts} />
+                <div className="productTable">
+                    <ProductsPanel totalProducts={totalProducts} />
+                </div>
             </div>
-            
-            </div>
-            
-           
         </div>
     );
 }
